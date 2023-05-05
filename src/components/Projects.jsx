@@ -2,8 +2,6 @@ import { useFetchProjects } from "../fetchProjects";
 
 const Projects = () => {
   const { loading, projects } = useFetchProjects();
-  console.log(loading);
-  console.log(projects);
   if (loading) {
     return (
       <section className="projects">

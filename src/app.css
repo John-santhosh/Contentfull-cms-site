@@ -125,6 +125,7 @@ img {
   border-radius: 50%;
   transition: transform 0.3s;
   animation: rotate 1s linear infinite;
+  margin: auto;
 }
 
 @keyframes rotate {
