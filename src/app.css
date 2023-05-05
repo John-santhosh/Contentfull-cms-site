@@ -77,7 +77,8 @@ img {
   justify-content: space-between;
 }
 .projects-center a {
-  width: clamp(350px, 100%, 30%);
+  width: clamp(375px, 100%, 30%);
+  margin: auto;
 }
 .project {
   background: #fff;
